@@ -211,7 +211,7 @@ blockquote p span::before{
 
 .slider-container{
   display: block;
-  overflow: auto;
+  overflow: hidden;
   scroll-behavior: smooth; 
   white-space: nowrap;
   font-size: 0;
@@ -281,7 +281,7 @@ footer p{
   
   .header{
     position: sticky;
-    inset-block-start: -45px;
+    inset-block-start: -100px;
   }
 
   header{

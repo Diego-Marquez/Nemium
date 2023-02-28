@@ -185,7 +185,7 @@ blockquote p span::before{
 
 .slider-container{
   display: block;
-  overflow: auto;
+  overflow: hidden;
   scroll-behavior: smooth;
   white-space: nowrap;
   font-size: 0;
@@ -237,6 +237,7 @@ blockquote p span::before{
   color: var(--gray20);
 }
 
+
 .footer{
   background: var(--gray20);
   block-size: 150px;
@@ -255,7 +256,7 @@ blockquote p span::before{
   
   .header{
     position: sticky;
-    inset-block-start: -366px;
+    inset-block-start: -300px;
   }
 
   header{

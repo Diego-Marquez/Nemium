@@ -195,7 +195,7 @@ blockquote p span::before{
 
 .slider-container{
   display: block;
-  overflow: auto;
+  overflow: hidden;
   scroll-behavior: smooth;
   white-space: nowrap;
   font-size: 0;
